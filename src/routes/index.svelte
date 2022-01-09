@@ -4,7 +4,8 @@
 </section>
 <script>
     import supabase from '$lib/db';
-
+    import signup from '$lib/signup';
+    import login from '$lib/login';
     async function logout() {
    	 const { error } = await supabase.auth.signOut();
 
