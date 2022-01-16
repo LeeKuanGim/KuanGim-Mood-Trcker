@@ -19,7 +19,7 @@
 
     function redirect() {
    	 // login redirect
-   	 if ($session && $page.path === '/login') {
+   	 if ($session && $page.url.pathname === '/login') {
    		 goto('/');
    	 }
 
