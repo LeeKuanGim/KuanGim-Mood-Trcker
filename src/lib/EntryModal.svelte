@@ -1,5 +1,3 @@
-
-EntryModal.svelte
 <script>
     import supabase from '$lib/db';
 
